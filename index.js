@@ -6526,7 +6526,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			vFirst += buildsMake[0][4]/fps;
 			
 			
-			this.make1.name_u.text = trans("Doctors") + ": " + format_short(buildsMake[0][1], 0) + " [" + format_short(buildsMake[0][0], 0) + "]";
+			this.make1.name_u.text = trans("医生") + ": " + format_short(buildsMake[0][1], 0) + " [" + format_short(buildsMake[0][0], 0) + "]";
 			this.make1.lv_u.text = Math.round(buildsMake[0][2]) + "";
 			this.make1.u_vps.text = format_short(buildsMake[0][4], 0) + " " + trans("CP") + "/" + trans("s");
 			this.make1.u_cost.text = trans("C: ") + format_short(buildsMake[0][8], 1) + "$ [+" + format_short(amounts[0][0], 0) + "]";
@@ -6544,7 +6544,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			}
 			
 			
-			this.make2.name_u.text = trans("Colleges") + ": " + format_short(buildsMake[1][1], 0) + " [" + format_beauty(buildsMake[1][0], 0) + "]";
+			this.make2.name_u.text = trans("学院") + ": " + format_short(buildsMake[1][1], 0) + " [" + format_beauty(buildsMake[1][0], 0) + "]";
 			this.make2.lv_u.text = Math.round(buildsMake[1][2]) + "";
 			
 			if (buildsMake[1][4] / buildsMake[0][10] < 1) {
@@ -6569,7 +6569,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			}
 			
 			
-			this.make3.name_u.text = trans("Scientists") + ": " + format_short(buildsMake[2][1], 0) + " [" + format_beauty(buildsMake[2][0], 0) + "]";
+			this.make3.name_u.text = trans("科学家") + ": " + format_short(buildsMake[2][1], 0) + " [" + format_beauty(buildsMake[2][0], 0) + "]";
 			this.make3.lv_u.text = Math.round(buildsMake[2][2]) + "";
 			
 			if (buildsMake[2][4] / buildsMake[1][10] < 1) {
@@ -6594,7 +6594,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			}
 			
 			
-			this.make4.name_u.text = trans("Nobels") + ": " + format_short(buildsMake[3][1], 0) + " [" + format_beauty(buildsMake[3][0], 0) + "]";
+			this.make4.name_u.text = trans("诺贝尔奖") + ": " + format_short(buildsMake[3][1], 0) + " [" + format_beauty(buildsMake[3][0], 0) + "]";
 			this.make4.lv_u.text = Math.round(buildsMake[3][2]) + "";
 			
 			if (buildsMake[3][4] / buildsMake[2][10] < 1) {
@@ -6627,7 +6627,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			}
 			
 			
-			this.make5.name_u.text = trans("Eurica") + ": " + format_short(buildsMake[4][1], 0) + " [" + format_beauty(buildsMake[4][0], 0) + "]";
+			this.make5.name_u.text = trans("欧洲委员会") + ": " + format_short(buildsMake[4][1], 0) + " [" + format_beauty(buildsMake[4][0], 0) + "]";
 			this.make5.lv_u.text = Math.round(buildsMake[4][2]) + "";
 			
 			if (buildsMake[4][4] / buildsMake[3][10] < 1) {
@@ -6720,7 +6720,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			}
 			
 			
-			this.sell1.name_u.text = trans("Sellers") + ": " + format_short(buildsSell[0][1], 0) + " [" + format_beauty(buildsSell[0][0], 0) + "]";
+			this.sell1.name_u.text = trans("卖家") + ": " + format_short(buildsSell[0][1], 0) + " [" + format_beauty(buildsSell[0][0], 0) + "]";
 			this.sell1.lv_u.text = Math.round(buildsSell[0][2]) + "";
 			this.sell1.u_vps.text = format_short(buildsSell[0][4], 0) + " " + trans("SP") + "/" + trans("s");
 			this.sell1.u_cost.text = trans("C: ") + format_short(buildsSell[0][8], 1) + "$ [+" + format_short(amounts[1][0], 0) + "]";
@@ -6740,7 +6740,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			}
 			
 			
-			this.sell2.name_u.text = trans("Employers") + ": " + format_short(buildsSell[1][1], 0) + " [" + format_beauty(buildsSell[1][0], 0) + "]";
+			this.sell2.name_u.text = trans("雇主") + ": " + format_short(buildsSell[1][1], 0) + " [" + format_beauty(buildsSell[1][0], 0) + "]";
 			this.sell2.lv_u.text = Math.round(buildsSell[1][2]) + "";
 			
 			if (buildsSell[1][4] / buildsSell[0][10] < 1) {
@@ -6767,7 +6767,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			}
 			
 			
-			this.sell3.name_u.text = trans("Businessmen") + ": " + format_short(buildsSell[2][1], 0) + " [" + format_beauty(buildsSell[2][0], 0) + "]";
+			this.sell3.name_u.text = trans("商人") + ": " + format_short(buildsSell[2][1], 0) + " [" + format_beauty(buildsSell[2][0], 0) + "]";
 			this.sell3.lv_u.text = Math.round(buildsSell[2][2]) + "";
 			
 			if (buildsSell[2][4] / buildsSell[1][10] < 1) {
@@ -6792,7 +6792,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			}
 			
 			
-			this.sell4.name_u.text = trans("Monopolists") + ": " + format_short(buildsSell[3][1], 0) + " [" + format_beauty(buildsSell[3][0], 0) + "]";
+			this.sell4.name_u.text = trans("垄断者") + ": " + format_short(buildsSell[3][1], 0) + " [" + format_beauty(buildsSell[3][0], 0) + "]";
 			this.sell4.lv_u.text = Math.round(buildsSell[3][2]) + "";
 			
 			if (buildsSell[3][4] / buildsSell[2][10] < 1) {
@@ -7076,28 +7076,28 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			this.tNow_text.text = zerForm(curDate.hour) + ":" + zerForm(curDate.minute);
 			this.wp_text.text = format_beauty(curPopulation, 0);
 			
-			this.cnow_t.text = trans("CASES NOW") + ": " + format_beauty(casesNow, 0);
-			this.totcas_t.text = "(" + trans("Total cases") + ": " + format_beauty(totalCases, 0) + ")";
-			this.curc_t.text = trans("Cured cases") + ": " + format_beauty(totalRecovered, 0);
-			this.tds_t.text = trans("Total deaths") + ": " + format_beauty(totalDeaths, 0);
+			this.cnow_t.text = trans("现有病例") + ": " + format_beauty(casesNow, 0);
+			this.totcas_t.text = "(" + trans("总病例") + ": " + format_beauty(totalCases, 0) + ")";
+			this.curc_t.text = trans("治愈病例") + ": " + format_beauty(totalRecovered, 0);
+			this.tds_t.text = trans("总死亡") + ": " + format_beauty(totalDeaths, 0);
 			
-			this.immuned_txt.text = trans("Immuned People") +": " + format_beauty(immuned, 0);
+			this.immuned_txt.text = trans("免疫人群") +": " + format_beauty(immuned, 0);
 			this.immunedP_txt.text = "(" + Math.round((immuned / curPopulation)*100000000)/1000000 + "%)";
 			
-			this.deadby_txt.text = trans("Dead by You") + ": " + format_beauty(deadByU, 0);
+			this.deadby_txt.text = trans("死于你手") + ": " + format_beauty(deadByU, 0);
 			this.deadbyP_txt.text = "(" + Math.round((deadByU / (curPopulation+totalDeaths))*100000000)/1000000 + "%)";
 			
-			this.nim_txt.text = trans("Not Immuned") + ": " + format_beauty(healthy + casesNow, 0);
+			this.nim_txt.text = trans("未免疫") + ": " + format_beauty(healthy + casesNow, 0);
 			this.nimP_txt.text = "(" + Math.round(((healthy + casesNow) / curPopulation)*100000000)/1000000 + "%)";
 			
-			this.vacs_txt.text = trans("Cures Sold") + ": " + format_beauty(vacSold, 0);
-			this.sucs_txt.text = trans("Successes") + ": " + format_beauty(sucss, 0) + " " + (vacSold > 0 ? "(" + Math.round((sucss / vacSold)*100000)/1000 + "%)" : "");
+			this.vacs_txt.text = trans("治愈已售") + ": " + format_beauty(vacSold, 0);
+			this.sucs_txt.text = trans("成功") + ": " + format_beauty(sucss, 0) + " " + (vacSold > 0 ? "(" + Math.round((sucss / vacSold)*100000)/1000 + "%)" : "");
 			
-			this.totalmmade_txt.text = trans("Total $ made") + ": " + format_beauty(totalMMade, 0) + "$";
+			this.totalmmade_txt.text = trans("总计赚的钱 $") + ": " + format_beauty(totalMMade, 0) + "$";
 			
-			this.timePas_txt.text = trans("Time Passed") + ": " + (timeDays>0 ? format_beauty(timeDays, 0) + " "+trans("days") + " " : "") + (timeHours>0 ? format_beauty(timeHours, 0) + " " + trans("hours") + " " : "") + format_beauty(timeMinutes, 2) + " " + trans("mins") + " ";
+			this.timePas_txt.text = trans("过去时间") + ": " + (timeDays>0 ? format_beauty(timeDays, 0) + " "+trans("days") + " " : "") + (timeHours>0 ? format_beauty(timeHours, 0) + " " + trans("hours") + " " : "") + format_beauty(timeMinutes, 2) + " " + trans("mins") + " ";
 			
-			this.difty_txt.text = trans("Difficulty") + ": " + format_beauty(difficulty, 0);
+			this.difty_txt.text = trans("难度") + ": " + format_beauty(difficulty, 0);
 			
 			
 			if (vacLvl < 10) {
@@ -7126,8 +7126,8 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			}
 			
 			
-			this.vacsMy_txt.text = trans("Cures") + ": " + format_beauty(vaccines, 0);
-			this.moneyMy_txt.text = trans("Money") + ": " + format_beauty(money, 2) + "$";
+			this.vacsMy_txt.text = trans("治愈") + ": " + format_beauty(vaccines, 0);
+			this.moneyMy_txt.text = trans("资金") + ": " + format_beauty(money, 2) + "$";
 			
 			
 			this.partOfV_txt.text = format_short(Math.min(vFirst, vTime), 0) + "/" + format_beauty(vTime, 0);
@@ -7138,24 +7138,24 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			this.sellR_txt.text = format_short(Math.min(sFirst, sTime), 0) + "/" + format_short(sTime, 0);
 			
 			
-			this.chance1_txt.text = trans("Cure Chance") + ": ~" + Math.round(curCh*100000)/1000 + "%";
-			this.chance2_txt.text = "["+trans("Immunity Chance") + ": " + Math.round(curCh*immCh*100000)/1000 + "%]";
-			this.chance3_txt.text = trans("Death Chance") + ": " + Math.round((1-curCh)*deadCh*100000)/1000 + "%";
+			this.chance1_txt.text = trans("治愈几率") + ": ~" + Math.round(curCh*100000)/1000 + "%";
+			this.chance2_txt.text = "["+trans("免疫率") + ": " + Math.round(curCh*immCh*100000)/1000 + "%]";
+			this.chance3_txt.text = trans("死亡率") + ": " + Math.round((1-curCh)*deadCh*100000)/1000 + "%";
 			
 			if (vCost < 10) {
-				this.cost_txt.text = trans("Cure Cost") + ": " + format_short(vCost, 3) + "$";
+				this.cost_txt.text = trans("治愈成本") + ": " + format_short(vCost, 3) + "$";
 			}
 			else if (vCost < 100) {
-				this.cost_txt.text = trans("Cure Cost") + ": " + format_short(vCost, 2) + "$";
+				this.cost_txt.text = trans("治愈成本") + ": " + format_short(vCost, 2) + "$";
 			}
 			else if (vCost < 1000) {
-				this.cost_txt.text = trans("Cure Cost") + ": " + format_short(vCost, 1) + "$";
+				this.cost_txt.text = trans("治愈成本") + ": " + format_short(vCost, 1) + "$";
 			}
 			else {
-				this.cost_txt.text = trans("Cure Cost") + ": " + format_short(vCost, 0) + "$";
+				this.cost_txt.text = trans("治愈成本") + ": " + format_short(vCost, 0) + "$";
 			}
 			
-			this.sellEff_txt.text = trans("Sell Eff.") + ":" + format_beauty(sellEff*100, 4) + "%";
+			this.sellEff_txt.text = trans("出售效果") + ":" + format_beauty(sellEff*100, 4) + "%";
 			
 			
 			
@@ -7503,7 +7503,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 		
 		this.cGames.addEventListener("click", goCG.bind(this));
 		function goCG() {
-			window.open("http://crazygames.com/", "_blank");
+			window.open("http://gityx.com/", "_blank");
 		}
 		
 		this.speedUP_b.addEventListener("click", makeActive.bind(this));
