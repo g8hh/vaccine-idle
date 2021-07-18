@@ -1399,7 +1399,7 @@ p.nominalBounds = new cjs.Rectangle(-20.6,-20.6,41.5,41.5);
 	this.uChange.parent = this;
 	this.uChange.setTransform(94.8,59.4,0.4127,0.4127);
 
-	this.uDesc = new cjs.Text("Your base and max v.cost is multiplied by", "bold 30px 'Consolas'");
+	this.uDesc = new cjs.Text("您的基础和最大 v.cost 乘以", "bold 30px 'Consolas'");
 	this.uDesc.name = "uDesc";
 	this.uDesc.textAlign = "center";
 	this.uDesc.lineHeight = 37;
@@ -1407,7 +1407,7 @@ p.nominalBounds = new cjs.Rectangle(-20.6,-20.6,41.5,41.5);
 	this.uDesc.parent = this;
 	this.uDesc.setTransform(93.6,27.9,0.4127,0.4127);
 
-	this.uName = new cjs.Text("Vaccine Cost", "bold 36px 'Consolas'");
+	this.uName = new cjs.Text("疫苗成本", "bold 36px 'Consolas'");
 	this.uName.name = "uName";
 	this.uName.textAlign = "center";
 	this.uName.lineHeight = 44;
@@ -1943,7 +1943,7 @@ p.nominalBounds = new cjs.Rectangle(0.2,0.5,9,185);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой_1
-	this.ccs_b = new cjs.Text("Cure Cost?", "bold 34px 'Consolas'");
+	this.ccs_b = new cjs.Text("治愈成本?", "bold 34px 'Consolas'");
 	this.ccs_b.name = "ccs_b";
 	this.ccs_b.textAlign = "center";
 	this.ccs_b.lineHeight = 42;
@@ -1951,7 +1951,7 @@ p.nominalBounds = new cjs.Rectangle(0.2,0.5,9,185);
 	this.ccs_b.parent = this;
 	this.ccs_b.setTransform(67.9563,1.9,0.5017,0.5017);
 
-	this.ccrr = new cjs.Text("Every your cure increases C.C \nby 0.0001$ / immunity by 0.001$.\nIf human dies after your cure, it decreases C.C by 0.005$ and 0.01%", "bold 10px 'Consolas'");
+	this.ccrr = new cjs.Text("你的每一次治愈都会增加 C.C \n 0.0001$ / 免疫力 0.001$.\n如果人类在治愈后死亡，则 C.C 降低 0.005$ 和 0.01%", "bold 10px 'Consolas'");
 	this.ccrr.name = "ccrr";
 	this.ccrr.textAlign = "center";
 	this.ccrr.lineHeight = 14;
@@ -1959,7 +1959,7 @@ p.nominalBounds = new cjs.Rectangle(0.2,0.5,9,185);
 	this.ccrr.parent = this;
 	this.ccrr.setTransform(67.826,75.7,0.7702,0.7702);
 
-	this.minVV = new cjs.Text("Min V.C - 0.01$", "bold 10px 'Consolas'");
+	this.minVV = new cjs.Text("最小 V.C - 0.01$", "bold 10px 'Consolas'");
 	this.minVV.name = "minVV";
 	this.minVV.textAlign = "center";
 	this.minVV.lineHeight = 14;
@@ -1967,7 +1967,7 @@ p.nominalBounds = new cjs.Rectangle(0.2,0.5,9,185);
 	this.minVV.parent = this;
 	this.minVV.setTransform(67.8,57.75);
 
-	this.maxVV = new cjs.Text("Max V.C - 1,000$", "bold 10px 'Consolas'");
+	this.maxVV = new cjs.Text("最大 V.C - 1,000$", "bold 10px 'Consolas'");
 	this.maxVV.name = "maxVV";
 	this.maxVV.textAlign = "center";
 	this.maxVV.lineHeight = 14;
@@ -1975,7 +1975,7 @@ p.nominalBounds = new cjs.Rectangle(0.2,0.5,9,185);
 	this.maxVV.parent = this;
 	this.maxVV.setTransform(68.3,43.35);
 
-	this.baseVV = new cjs.Text("Base V.Cost ~ 1$", "bold 10px 'Consolas'");
+	this.baseVV = new cjs.Text("基础 V.成本 ~ 1$", "bold 10px 'Consolas'");
 	this.baseVV.name = "baseVV";
 	this.baseVV.textAlign = "center";
 	this.baseVV.lineHeight = 14;
@@ -4022,7 +4022,7 @@ p.nominalBounds = new cjs.Rectangle(-25,-13.7,50,27.5);
 	this.lv_u.parent = this;
 	this.lv_u.setTransform(15.35,21.55,0.6136,0.6136);
 
-	this.name_u = new cjs.Text("Doctors: 161,111,111 [250]", "bold 23px 'Consolas'");
+	this.name_u = new cjs.Text("医生: 161,111,111 [250]", "bold 23px 'Consolas'");
 	this.name_u.name = "name_u";
 	this.name_u.textAlign = "center";
 	this.name_u.lineHeight = 29;
@@ -4140,7 +4140,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,112,49.5);
 	this.yesGUP.name = "yesGUP";
 	this.yesGUP.setTransform(40.1,90.9);
 
-	this.ginfo2 = new cjs.Text("You will lose your progress and won't get any bonuses but you freely can change your dif-ty/spend est BP", "bold 36px 'Consolas'", "#590000");
+	this.ginfo2 = new cjs.Text("您将失去进度并且不会获得任何奖励，但您可以自由更改您的 难度/花费 BP", "bold 36px 'Consolas'", "#590000");
 	this.ginfo2.name = "ginfo2";
 	this.ginfo2.textAlign = "center";
 	this.ginfo2.lineHeight = 44;
@@ -4148,7 +4148,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,112,49.5);
 	this.ginfo2.parent = this;
 	this.ginfo2.setTransform(85.648,40.4567,0.2174,0.2174);
 
-	this.ginfo1 = new cjs.Text("Are you really sure to give up?", "bold 34px 'Consolas'", "#590000");
+	this.ginfo1 = new cjs.Text("你真的要放弃吗?", "bold 34px 'Consolas'", "#590000");
 	this.ginfo1.name = "ginfo1";
 	this.ginfo1.textAlign = "center";
 	this.ginfo1.lineHeight = 42;
@@ -4351,7 +4351,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.vup_close.setTransform(1015.4,27.1,1,1,0,0,0,26.2,27.1);
 	new cjs.ButtonHelper(this.vup_close, 0, 1, 2);
 
-	this.bpNow = new cjs.Text("Bonus points: 117,117,117", "bold 45px 'Consolas'");
+	this.bpNow = new cjs.Text("奖励点数: 117,117,117", "bold 45px 'Consolas'");
 	this.bpNow.name = "bpNow";
 	this.bpNow.textAlign = "center";
 	this.bpNow.lineHeight = 55;
@@ -4359,7 +4359,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.bpNow.parent = this;
 	this.bpNow.setTransform(527.2,127.8);
 
-	this.vacLL = new cjs.Text("Vaccine Lv: 111 (Start vaccines: 1,001)", "bold 29px 'Consolas'");
+	this.vacLL = new cjs.Text("疫苗等级: 111 (开始接种疫苗: 1,001)", "bold 29px 'Consolas'");
 	this.vacLL.name = "vacLL";
 	this.vacLL.textAlign = "center";
 	this.vacLL.lineHeight = 36;
@@ -4367,7 +4367,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.vacLL.parent = this;
 	this.vacLL.setTransform(527.85,85.1);
 
-	this.cName = new cjs.Text("Cure Upgrades", "bold 21px 'Consolas'");
+	this.cName = new cjs.Text("治愈升级", "bold 21px 'Consolas'");
 	this.cName.name = "cName";
 	this.cName.textAlign = "center";
 	this.cName.lineHeight = 27;
@@ -4411,7 +4411,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.left1.setTransform(126.05,43.15);
 	new cjs.ButtonHelper(this.left1, 0, 1, 2);
 
-	this.opt1 = new cjs.Text("Notation: Common", "bold 18px 'Arial'", "#141414");
+	this.opt1 = new cjs.Text("符号: 常规", "bold 18px 'Arial'", "#141414");
 	this.opt1.name = "opt1";
 	this.opt1.textAlign = "center";
 	this.opt1.lineHeight = 22;
@@ -4424,7 +4424,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.clos.setTransform(153.55,-103.1,1.1085,1.1085,0,0,0,0.1,0.1);
 	new cjs.ButtonHelper(this.clos, 0, 1, 2);
 
-	this.opNa = new cjs.Text("Options", "bold 24px 'Arial'", "#FFFFFF");
+	this.opNa = new cjs.Text("选项", "bold 24px 'Arial'", "#FFFFFF");
 	this.opNa.name = "opNa";
 	this.opNa.textAlign = "center";
 	this.opNa.lineHeight = 29;
@@ -4455,7 +4455,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.buyUpg.name = "buyUpg";
 	this.buyUpg.setTransform(501.45,380.85);
 
-	this.hintt = new cjs.Text("Cure atleast 1% of total cases\nto lvl up your max difficulty", "bold 32px 'Consolas'", "#CC6666");
+	this.hintt = new cjs.Text("治愈至少 1% 的病例\n以提高你的最大难度", "bold 32px 'Consolas'", "#CC6666");
 	this.hintt.name = "hintt";
 	this.hintt.textAlign = "center";
 	this.hintt.lineHeight = 40;
@@ -4519,7 +4519,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.NGstat_b2_6.parent = this;
 	this.NGstat_b2_6.setTransform(750.5,532.8);
 
-	this.NGstat_b1 = new cjs.Text("Death Rate Mult: x1.2", "bold 24px 'Consolas'", "#000033");
+	this.NGstat_b1 = new cjs.Text("死亡率乘数: x1.2", "bold 24px 'Consolas'", "#000033");
 	this.NGstat_b1.name = "NGstat_b1";
 	this.NGstat_b1.textAlign = "center";
 	this.NGstat_b1.lineHeight = 30;
@@ -4527,7 +4527,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.NGstat_b1.parent = this;
 	this.NGstat_b1.setTransform(750.5,500.2);
 
-	this.NGstat8 = new cjs.Text("Vaccine Death chance is powered: ^0.8", "bold 21px 'Consolas'", "#000033");
+	this.NGstat8 = new cjs.Text("疫苗死亡几率提升: ^0.8", "bold 21px 'Consolas'", "#000033");
 	this.NGstat8.name = "NGstat8";
 	this.NGstat8.textAlign = "center";
 	this.NGstat8.lineHeight = 27;
@@ -4540,7 +4540,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.vac_help.setTransform(16.8,704.3,0.6837,0.6837,0,0,0,0.1,0.1);
 	new cjs.ButtonHelper(this.vac_help, 0, 1, 1);
 
-	this.NGstat7 = new cjs.Text("Base/max V.C is powered to ^1.4", "bold 24px 'Consolas'", "#000033");
+	this.NGstat7 = new cjs.Text("基础/最大 V.C 提升到 ^1.4", "bold 24px 'Consolas'", "#000033");
 	this.NGstat7.name = "NGstat7";
 	this.NGstat7.textAlign = "center";
 	this.NGstat7.lineHeight = 30;
@@ -4548,7 +4548,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.NGstat7.parent = this;
 	this.NGstat7.setTransform(249.5,689.75);
 
-	this.NGstat6 = new cjs.Text("Immunity chance is powered to ^2.5", "bold 24px 'Consolas'", "#000033");
+	this.NGstat6 = new cjs.Text("免疫几率提升到 ^2.5", "bold 24px 'Consolas'", "#000033");
 	this.NGstat6.name = "NGstat6";
 	this.NGstat6.textAlign = "center";
 	this.NGstat6.lineHeight = 30;
@@ -4556,7 +4556,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.NGstat6.parent = this;
 	this.NGstat6.setTransform(250.25,658.55);
 
-	this.NGstat5 = new cjs.Text("Cure chance is powered to ^1.2", "bold 24px 'Consolas'", "#000033");
+	this.NGstat5 = new cjs.Text("治愈几率提升 ^1.2", "bold 24px 'Consolas'", "#000033");
 	this.NGstat5.name = "NGstat5";
 	this.NGstat5.textAlign = "center";
 	this.NGstat5.lineHeight = 30;
@@ -4564,7 +4564,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.NGstat5.parent = this;
 	this.NGstat5.setTransform(249.5,627.35);
 
-	this.NGstat4 = new cjs.Text("Virus spread mult: x1.5", "bold 24px 'Consolas'", "#000033");
+	this.NGstat4 = new cjs.Text("病毒传播倍数: x1.5", "bold 24px 'Consolas'", "#000033");
 	this.NGstat4.name = "NGstat4";
 	this.NGstat4.textAlign = "center";
 	this.NGstat4.lineHeight = 30;
@@ -4572,7 +4572,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.NGstat4.parent = this;
 	this.NGstat4.setTransform(251.45,594.6);
 
-	this.NGstat3 = new cjs.Text("Sell time is powered to ^2.5", "bold 24px 'Consolas'", "#000033");
+	this.NGstat3 = new cjs.Text("出售时间提升 ^2.5", "bold 24px 'Consolas'", "#000033");
 	this.NGstat3.name = "NGstat3";
 	this.NGstat3.textAlign = "center";
 	this.NGstat3.lineHeight = 30;
@@ -4580,7 +4580,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.NGstat3.parent = this;
 	this.NGstat3.setTransform(250.25,563.4);
 
-	this.NGstat2 = new cjs.Text("Vac. time is powered to ^2.5", "bold 24px 'Consolas'", "#000033");
+	this.NGstat2 = new cjs.Text("疫苗时间提升到 ^2.5", "bold 24px 'Consolas'", "#000033");
 	this.NGstat2.name = "NGstat2";
 	this.NGstat2.textAlign = "center";
 	this.NGstat2.lineHeight = 30;
@@ -4588,7 +4588,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.NGstat2.parent = this;
 	this.NGstat2.setTransform(249.5,532.2);
 
-	this.NGstat1 = new cjs.Text("Bonus pts gain: x1,111,111", "bold 24px 'Consolas'", "#000033");
+	this.NGstat1 = new cjs.Text("奖励点数增益: x1,111,111", "bold 24px 'Consolas'", "#000033");
 	this.NGstat1.name = "NGstat1";
 	this.NGstat1.textAlign = "center";
 	this.NGstat1.lineHeight = 30;
@@ -4596,7 +4596,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.NGstat1.parent = this;
 	this.NGstat1.setTransform(249.5,500.7);
 
-	this.difty = new cjs.Text("Difficulty: 0", "bold 27px 'Consolas'", "#990000");
+	this.difty = new cjs.Text("难度: 0", "bold 27px 'Consolas'", "#990000");
 	this.difty.name = "difty";
 	this.difty.textAlign = "center";
 	this.difty.lineHeight = 34;
@@ -4604,7 +4604,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.difty.parent = this;
 	this.difty.setTransform(500.4,458);
 
-	this.modeTT = new cjs.Text("Normal Mode", "bold 34px 'Consolas'");
+	this.modeTT = new cjs.Text("正常模式", "bold 34px 'Consolas'");
 	this.modeTT.name = "modeTT";
 	this.modeTT.textAlign = "center";
 	this.modeTT.lineHeight = 42;
@@ -4621,7 +4621,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.plusCon.setTransform(637.8,473.55,0.6521,0.6521,0,0,0,27.4,27.6);
 	new cjs.ButtonHelper(this.plusCon, 0, 1, 2);
 
-	this.bonusPts = new cjs.Text("BONUS POINTS GAIN: 17 [TOTAL: 1,111,111,111]", "bold 34px 'Consolas'", "#009933");
+	this.bonusPts = new cjs.Text("奖励点数增益: 17 [总计: 1,111,111,111]", "bold 34px 'Consolas'", "#009933");
 	this.bonusPts.name = "bonusPts";
 	this.bonusPts.textAlign = "center";
 	this.bonusPts.lineHeight = 42;
@@ -4629,7 +4629,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.bonusPts.parent = this;
 	this.bonusPts.setTransform(502.85,309.2);
 
-	this.vacAm = new cjs.Text("You sold 1,111,111,111 vaccines and made 1,111,111,111$", "bold 28px 'Consolas'", "#990066");
+	this.vacAm = new cjs.Text("你出售了 1,111,111,111 疫苗并赚了 1,111,111,111$", "bold 28px 'Consolas'", "#990066");
 	this.vacAm.name = "vacAm";
 	this.vacAm.textAlign = "center";
 	this.vacAm.lineHeight = 35;
@@ -4637,7 +4637,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.vacAm.parent = this;
 	this.vacAm.setTransform(502.85,253.15);
 
-	this.killedAm = new cjs.Text("You killed 62,222 people [Total deaths: 1,111,111,111]", "bold 28px 'Consolas'", "#990000");
+	this.killedAm = new cjs.Text("你杀死了 62,222 人 [总死亡人数: 1,111,111,111]", "bold 28px 'Consolas'", "#990000");
 	this.killedAm.name = "killedAm";
 	this.killedAm.textAlign = "center";
 	this.killedAm.lineHeight = 35;
@@ -4645,7 +4645,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.killedAm.parent = this;
 	this.killedAm.setTransform(502.85,216.35);
 
-	this.immunedAm = new cjs.Text("You made 116,116 people immuned to the virus.", "bold 28px 'Consolas'", "#000066");
+	this.immunedAm = new cjs.Text("你让 116,116 人免疫病毒.", "bold 28px 'Consolas'", "#000066");
 	this.immunedAm.name = "immunedAm";
 	this.immunedAm.textAlign = "center";
 	this.immunedAm.lineHeight = 35;
@@ -4653,7 +4653,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.immunedAm.parent = this;
 	this.immunedAm.setTransform(502.85,179.55);
 
-	this.curedAm = new cjs.Text("You cured people 12,112,111 times.", "bold 28px 'Consolas'", "#003300");
+	this.curedAm = new cjs.Text("你治愈了人们 12,112,111 次.", "bold 28px 'Consolas'", "#003300");
 	this.curedAm.name = "curedAm";
 	this.curedAm.textAlign = "center";
 	this.curedAm.lineHeight = 35;
@@ -4661,7 +4661,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.curedAm.parent = this;
 	this.curedAm.setTransform(502.85,143);
 
-	this.tookDays = new cjs.Text("It took you XXX days (September 21, 2020 - September 30, 2021)", "bold 28px 'Consolas'");
+	this.tookDays = new cjs.Text("花了你 XXX 天 (September 21, 2020 - September 30, 2021)", "bold 28px 'Consolas'");
 	this.tookDays.name = "tookDays";
 	this.tookDays.textAlign = "center";
 	this.tookDays.lineHeight = 35;
@@ -4669,14 +4669,14 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.tookDays.parent = this;
 	this.tookDays.setTransform(502.85,94.2);
 
-	this.killedIs = new cjs.Text("and killed some people", "bold 25px 'Consolas'");
+	this.killedIs = new cjs.Text("并杀死了有些人", "bold 25px 'Consolas'");
 	this.killedIs.name = "killedIs";
 	this.killedIs.textAlign = "center";
 	this.killedIs.lineHeight = 31;
 	this.killedIs.parent = this;
 	this.killedIs.setTransform(861.634,59.8,0.7759,0.7759);
 
-	this.concon = new cjs.Text("Congratulations, you saved the World!", "bold 25px 'Consolas'");
+	this.concon = new cjs.Text("恭喜你拯救了世界！", "bold 25px 'Consolas'");
 	this.concon.name = "concon";
 	this.concon.textAlign = "center";
 	this.concon.lineHeight = 31;
@@ -8247,7 +8247,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.langIcon.name = "langIcon";
 	this.langIcon.setTransform(1057.5,709.6,1,1,0,0,0,0,0.5);
 
-	this.vacBonusc = new cjs.Text("Increases your BP and cures gain by x1.05", "bold 15px 'Consolas'", "#003300");
+	this.vacBonusc = new cjs.Text("提高你的奖励点数和治愈增益 x1.05", "bold 15px 'Consolas'", "#003300");
 	this.vacBonusc.name = "vacBonusc";
 	this.vacBonusc.textAlign = "center";
 	this.vacBonusc.lineHeight = 20;
@@ -8255,7 +8255,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.vacBonusc.parent = this;
 	this.vacBonusc.setTransform(996.2521,451.65,0.7037,0.7037);
 
-	this.getVcs = new cjs.Text("to get 17,202 Vaccines", "bold 15px 'Consolas'", "#003300");
+	this.getVcs = new cjs.Text("去获得 17,202 疫苗", "bold 15px 'Consolas'", "#003300");
 	this.getVcs.name = "getVcs";
 	this.getVcs.textAlign = "center";
 	this.getVcs.lineHeight = 20;
@@ -8263,7 +8263,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.getVcs.parent = this;
 	this.getVcs.setTransform(996.2521,436.45,0.7037,0.7037);
 
-	this.flushedInfo = new cjs.Text("Flushed Cures: 1.22T -> 997 Vcs", "bold 19px 'Consolas'", "#003300");
+	this.flushedInfo = new cjs.Text("冲洗疗法: 1.22T -> 997 疫苗", "bold 19px 'Consolas'", "#003300");
 	this.flushedInfo.name = "flushedInfo";
 	this.flushedInfo.textAlign = "center";
 	this.flushedInfo.lineHeight = 24;
@@ -8275,7 +8275,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.autoBBar.name = "autoBBar";
 	this.autoBBar.setTransform(1001.3,364.35,1,1,0,0,0,71,3.3);
 
-	this.tickSpeedt = new cjs.Text("Tick Speed: 5s", "bold 11px 'Consolas'", "#003300");
+	this.tickSpeedt = new cjs.Text("Tick速度: 5s", "bold 11px 'Consolas'", "#003300");
 	this.tickSpeedt.name = "tickSpeedt";
 	this.tickSpeedt.textAlign = "center";
 	this.tickSpeedt.lineHeight = 15;
@@ -8283,7 +8283,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.tickSpeedt.parent = this;
 	this.tickSpeedt.setTransform(1001.7,345.8);
 
-	this.autobDesc = new cjs.Text("Autobuys the cheapest building every tick", "bold 10px 'Consolas'", "#003300");
+	this.autobDesc = new cjs.Text("每一刻自动购买最便宜的建筑", "bold 10px 'Consolas'", "#003300");
 	this.autobDesc.name = "autobDesc";
 	this.autobDesc.textAlign = "center";
 	this.autobDesc.lineHeight = 14;
@@ -8295,7 +8295,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.autobIs.name = "autobIs";
 	this.autobIs.setTransform(1057.9,302.2,1.1115,1.1115,0,0,0,0.1,0.1);
 
-	this.autoBuy_t = new cjs.Text("Autobuy!", "bold 20px 'Consolas'", "#003300");
+	this.autoBuy_t = new cjs.Text("自动购买!", "bold 20px 'Consolas'", "#003300");
 	this.autoBuy_t.name = "autoBuy_t";
 	this.autoBuy_t.textAlign = "center";
 	this.autoBuy_t.lineHeight = 25;
@@ -8307,7 +8307,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.giveUPW.name = "giveUPW";
 	this.giveUPW.setTransform(974,538.45,1,1,0,0,0,86.2,56);
 
-	this.versionStat = new cjs.Text("Version: 1.0.5", "bold 21px 'Consolas'");
+	this.versionStat = new cjs.Text("版本: 1.0.5", "bold 21px 'Consolas'");
 	this.versionStat.name = "versionStat";
 	this.versionStat.textAlign = "center";
 	this.versionStat.lineHeight = 27;
@@ -8397,7 +8397,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.spdTime.parent = this;
 	this.spdTime.setTransform(152.2,749.05);
 
-	this.spdUP = new cjs.Text("SpeedUP (x3)", "bold 18px 'Consolas'");
+	this.spdUP = new cjs.Text("加速 (x3)", "bold 18px 'Consolas'");
 	this.spdUP.name = "spdUP";
 	this.spdUP.textAlign = "center";
 	this.spdUP.lineHeight = 23;
@@ -8409,7 +8409,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.make1.name = "make1";
 	this.make1.setTransform(399.7,336.1,1.33,1.2722,0,0,0,80.4,35.4);
 
-	this.sellEff_txt = new cjs.Text("Sell eff.: 100.0000%", "bold 26px 'Consolas'", "#0A1A1A");
+	this.sellEff_txt = new cjs.Text("出售 效果: 100.0000%", "bold 26px 'Consolas'", "#0A1A1A");
 	this.sellEff_txt.name = "sellEff_txt";
 	this.sellEff_txt.textAlign = "center";
 	this.sellEff_txt.lineHeight = 32;
@@ -8428,7 +8428,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.sellR_txt.parent = this;
 	this.sellR_txt.setTransform(994.3315,196.858,0.6695,0.6695,-90);
 
-	this.selling_st = new cjs.Text("SELLING", "bold 34px 'Consolas'", "#143333");
+	this.selling_st = new cjs.Text("出售", "bold 34px 'Consolas'", "#143333");
 	this.selling_st.name = "selling_st";
 	this.selling_st.textAlign = "center";
 	this.selling_st.lineHeight = 42;
@@ -8455,7 +8455,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.partOfV_txt.parent = this;
 	this.partOfV_txt.setTransform(122.1,60.4,0.3606,0.3606);
 
-	this.sucs_txt = new cjs.Text("Successes: 666,666,666 (60.24%)", "bold 30px 'Consolas'", "#003300");
+	this.sucs_txt = new cjs.Text("成功: 666,666,666 (60.24%)", "bold 30px 'Consolas'", "#003300");
 	this.sucs_txt.name = "sucs_txt";
 	this.sucs_txt.textAlign = "center";
 	this.sucs_txt.lineHeight = 37;
@@ -8463,7 +8463,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.sucs_txt.parent = this;
 	this.sucs_txt.setTransform(119.1725,484.15,0.3725,0.3725);
 
-	this.stath3 = new cjs.Text("like game post for extra karma too:)", "bold 17px 'Consolas'");
+	this.stath3 = new cjs.Text("喜欢游戏帖子以获得额外的业力:)", "bold 17px 'Consolas'");
 	this.stath3.name = "stath3";
 	this.stath3.textAlign = "center";
 	this.stath3.lineHeight = 22;
@@ -8471,7 +8471,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.stath3.parent = this;
 	this.stath3.setTransform(145.2324,700.75,0.5151,0.5151);
 
-	this.stath2 = new cjs.Text("subscribe for extra karma", "bold 21px 'Consolas'");
+	this.stath2 = new cjs.Text("订阅获得额外的业力", "bold 21px 'Consolas'");
 	this.stath2.name = "stath2";
 	this.stath2.textAlign = "center";
 	this.stath2.lineHeight = 27;
@@ -8479,7 +8479,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.stath2.parent = this;
 	this.stath2.setTransform(146.6824,685.1,0.5151,0.5151);
 
-	this.bonus1 = new cjs.Text("click for 20 mins bonus time", "bold 21px 'Consolas'");
+	this.bonus1 = new cjs.Text("点击 20 分钟奖励时间", "bold 21px 'Consolas'");
 	this.bonus1.name = "bonus1";
 	this.bonus1.textAlign = "center";
 	this.bonus1.lineHeight = 27;
@@ -8508,7 +8508,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.gmade_stat.parent = this;
 	this.gmade_stat.setTransform(119.0022,607.5,0.7303,0.7303);
 
-	this.difty_txt = new cjs.Text("Difficulty: 31", "bold 50px 'Consolas'", "#730000");
+	this.difty_txt = new cjs.Text("难度: 31", "bold 50px 'Consolas'", "#730000");
 	this.difty_txt.name = "difty_txt";
 	this.difty_txt.textAlign = "center";
 	this.difty_txt.lineHeight = 61;
@@ -8516,7 +8516,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.difty_txt.parent = this;
 	this.difty_txt.setTransform(118.65,554.25,0.3607,0.3607);
 
-	this.timePas_txt = new cjs.Text("Time Passed: 10 days 14 hours 13.1 mins", "bold 40px 'Consolas'", "#730073");
+	this.timePas_txt = new cjs.Text("时间过去了: 10 days 14 hours 13.1 mins", "bold 40px 'Consolas'", "#730073");
 	this.timePas_txt.name = "timePas_txt";
 	this.timePas_txt.textAlign = "center";
 	this.timePas_txt.lineHeight = 49;
@@ -8548,7 +8548,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.immunedP_txt.parent = this;
 	this.immunedP_txt.setTransform(118.2493,383.55,0.2591,0.2591);
 
-	this.totalmmade_txt = new cjs.Text("Total $ made: 6,012,121,111$", "bold 37px 'Consolas'", "#000066");
+	this.totalmmade_txt = new cjs.Text("总计赚的钱 $: 6,012,121,111$", "bold 37px 'Consolas'", "#000066");
 	this.totalmmade_txt.name = "totalmmade_txt";
 	this.totalmmade_txt.textAlign = "center";
 	this.totalmmade_txt.lineHeight = 45;
@@ -8556,7 +8556,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.totalmmade_txt.parent = this;
 	this.totalmmade_txt.setTransform(119,499.75,0.3607,0.3607);
 
-	this.vacs_txt = new cjs.Text("Vaccines Sold: 1,111,111,111", "bold 37px 'Consolas'", "#003300");
+	this.vacs_txt = new cjs.Text("出售的疫苗: 1,111,111,111", "bold 37px 'Consolas'", "#003300");
 	this.vacs_txt.name = "vacs_txt";
 	this.vacs_txt.textAlign = "center";
 	this.vacs_txt.lineHeight = 45;
@@ -8564,7 +8564,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.vacs_txt.parent = this;
 	this.vacs_txt.setTransform(119.35,465.5,0.3607,0.3607);
 
-	this.nim_txt = new cjs.Text("Not Immuned: 7,333,101,110", "bold 35px 'Consolas'", "#574500");
+	this.nim_txt = new cjs.Text("不免疫: 7,333,101,110", "bold 35px 'Consolas'", "#574500");
 	this.nim_txt.name = "nim_txt";
 	this.nim_txt.textAlign = "center";
 	this.nim_txt.lineHeight = 43;
@@ -8572,7 +8572,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.nim_txt.parent = this;
 	this.nim_txt.setTransform(118.35,423.45,0.3607,0.3607);
 
-	this.deadby_txt = new cjs.Text("Dead by You: 106,133,111,111", "bold 35px 'Consolas'", "#400000");
+	this.deadby_txt = new cjs.Text("死在你手里: 106,133,111,111", "bold 35px 'Consolas'", "#400000");
 	this.deadby_txt.name = "deadby_txt";
 	this.deadby_txt.textAlign = "center";
 	this.deadby_txt.lineHeight = 43;
@@ -8580,7 +8580,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.deadby_txt.parent = this;
 	this.deadby_txt.setTransform(118.35,395.8,0.3607,0.3607);
 
-	this.immuned_txt = new cjs.Text("Immuned People: 7,108,131,120", "bold 35px 'Consolas'", "#003300");
+	this.immuned_txt = new cjs.Text("免疫人群: 7,108,131,120", "bold 35px 'Consolas'", "#003300");
 	this.immuned_txt.name = "immuned_txt";
 	this.immuned_txt.textAlign = "center";
 	this.immuned_txt.lineHeight = 43;
@@ -8588,7 +8588,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.immuned_txt.parent = this;
 	this.immuned_txt.setTransform(118.35,368.15,0.3607,0.3607);
 
-	this.cost_txt = new cjs.Text("Cure Cost: 166,000.99$", "bold 34px 'Consolas'", "#000066");
+	this.cost_txt = new cjs.Text("治愈成本: 166,000.99$", "bold 34px 'Consolas'", "#000066");
 	this.cost_txt.name = "cost_txt";
 	this.cost_txt.textAlign = "center";
 	this.cost_txt.lineHeight = 42;
@@ -8596,7 +8596,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.cost_txt.parent = this;
 	this.cost_txt.setTransform(106.141,308.3,0.3607,0.3607);
 
-	this.chance3_txt = new cjs.Text("Death Chance: 7%", "bold 34px 'Consolas'", "#400000");
+	this.chance3_txt = new cjs.Text("死亡率: 7%", "bold 34px 'Consolas'", "#400000");
 	this.chance3_txt.name = "chance3_txt";
 	this.chance3_txt.textAlign = "center";
 	this.chance3_txt.lineHeight = 42;
@@ -8604,7 +8604,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.chance3_txt.parent = this;
 	this.chance3_txt.setTransform(105.65,282.1,0.3607,0.3607);
 
-	this.chance2_txt = new cjs.Text("[Immunity Chance: 21%]", "bold 34px 'Consolas'", "#003300");
+	this.chance2_txt = new cjs.Text("[免疫几率: 21%]", "bold 34px 'Consolas'", "#003300");
 	this.chance2_txt.name = "chance2_txt";
 	this.chance2_txt.textAlign = "center";
 	this.chance2_txt.lineHeight = 42;
@@ -8612,7 +8612,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.chance2_txt.parent = this;
 	this.chance2_txt.setTransform(106.05,265.9,0.3607,0.3607);
 
-	this.chance1_txt = new cjs.Text("Cure Chance: 70%", "bold 40px 'Consolas'", "#003300");
+	this.chance1_txt = new cjs.Text("治愈几率: 70%", "bold 40px 'Consolas'", "#003300");
 	this.chance1_txt.name = "chance1_txt";
 	this.chance1_txt.textAlign = "center";
 	this.chance1_txt.lineHeight = 49;
@@ -8624,7 +8624,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.vac_img.name = "vac_img";
 	this.vac_img.setTransform(99.85,158.65,0.5072,0.5072,0,0,0,66.8,159.3);
 
-	this.totcas_t = new cjs.Text("(Total cases: 66,321,120)", "bold 34px 'Consolas'", "#400000");
+	this.totcas_t = new cjs.Text("(总病例: 66,321,120)", "bold 34px 'Consolas'", "#400000");
 	this.totcas_t.name = "totcas_t";
 	this.totcas_t.textAlign = "center";
 	this.totcas_t.lineHeight = 42;
@@ -8632,7 +8632,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.totcas_t.parent = this;
 	this.totcas_t.setTransform(568.4204,176.85,0.6604,0.6604);
 
-	this.csta = new cjs.Text("Cure stats", "bold 20px 'Consolas'");
+	this.csta = new cjs.Text("治愈统计", "bold 20px 'Consolas'");
 	this.csta.name = "csta";
 	this.csta.textAlign = "center";
 	this.csta.lineHeight = 25;
@@ -8640,7 +8640,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.csta.parent = this;
 	this.csta.setTransform(118.55,333.5);
 
-	this.tds_t = new cjs.Text("Total deaths: 316,502", "bold 27px 'Consolas'");
+	this.tds_t = new cjs.Text("总计死亡数: 316,502", "bold 27px 'Consolas'");
 	this.tds_t.name = "tds_t";
 	this.tds_t.textAlign = "center";
 	this.tds_t.lineHeight = 34;
@@ -8648,7 +8648,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.tds_t.parent = this;
 	this.tds_t.setTransform(566.25,241.65);
 
-	this.curc_t = new cjs.Text("Cured cases: 7,805,113", "bold 29px 'Consolas'", "#003300");
+	this.curc_t = new cjs.Text("治愈病例: 7,805,113", "bold 29px 'Consolas'", "#003300");
 	this.curc_t.name = "curc_t";
 	this.curc_t.textAlign = "center";
 	this.curc_t.lineHeight = 36;
@@ -8656,7 +8656,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.curc_t.parent = this;
 	this.curc_t.setTransform(567.15,206.05);
 
-	this.cnow_t = new cjs.Text("CASES NOW: 11,602,854", "bold 34px 'Consolas'", "#400000");
+	this.cnow_t = new cjs.Text("现在的病例: 11,602,854", "bold 34px 'Consolas'", "#400000");
 	this.cnow_t.name = "cnow_t";
 	this.cnow_t.textAlign = "center";
 	this.cnow_t.lineHeight = 42;
@@ -8664,7 +8664,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.cnow_t.parent = this;
 	this.cnow_t.setTransform(568.1,136.85);
 
-	this.moneyMy_txt = new cjs.Text("Money: 70,799,614,000$", "bold 28px 'Consolas'", "#000033");
+	this.moneyMy_txt = new cjs.Text("资产: 70,799,614,000$", "bold 28px 'Consolas'", "#000033");
 	this.moneyMy_txt.name = "moneyMy_txt";
 	this.moneyMy_txt.textAlign = "center";
 	this.moneyMy_txt.lineHeight = 35;
@@ -8672,7 +8672,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.moneyMy_txt.parent = this;
 	this.moneyMy_txt.setTransform(505.7,85.35);
 
-	this.vacsMy_txt = new cjs.Text("Cures: 11,312,778", "bold 31px 'Consolas'", "#003300");
+	this.vacsMy_txt = new cjs.Text("治愈: 11,312,778", "bold 31px 'Consolas'", "#003300");
 	this.vacsMy_txt.name = "vacsMy_txt";
 	this.vacsMy_txt.textAlign = "center";
 	this.vacsMy_txt.lineHeight = 38;
@@ -8680,7 +8680,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.vacsMy_txt.parent = this;
 	this.vacsMy_txt.setTransform(505.95,34);
 
-	this.ycu = new cjs.Text("Your cure", "bold 17px 'Consolas'");
+	this.ycu = new cjs.Text("你的治愈", "bold 17px 'Consolas'");
 	this.ycu.name = "ycu";
 	this.ycu.textAlign = "center";
 	this.ycu.lineHeight = 22;
@@ -8688,7 +8688,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.ycu.parent = this;
 	this.ycu.setTransform(107.3,32.85);
 
-	this.gameInfo_ = new cjs.Text("You can cure only sick. Game ends when the pandemic is over.", "bold 15px 'Consolas'");
+	this.gameInfo_ = new cjs.Text("你只能治病。 大流行结束后，游戏结束。", "bold 15px 'Consolas'");
 	this.gameInfo_.name = "gameInfo_";
 	this.gameInfo_.textAlign = "center";
 	this.gameInfo_.lineHeight = 20;
@@ -8696,7 +8696,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 	this.gameInfo_.parent = this;
 	this.gameInfo_.setTransform(478.1655,5.8,0.9717,1);
 
-	this.text = new cjs.Text("Vaccine Idle", "bold 18px 'Consolas'");
+	this.text = new cjs.Text("疫苗放置", "bold 18px 'Consolas'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 23;
 	this.text.lineWidth = 166;
