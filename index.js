@@ -5277,7 +5277,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 				this.spdUP.visible = true;
 				this.spdTime.visible = true;
 				if (language == 0) {
-					this.spdUP.text = "SpeedUP (x3)";
+					this.spdUP.text = "加速 (x3)";
 					this.spdTime.text = Math.round(speedUPTime*10)/10 + " s";
 				}
 				else {
@@ -5309,7 +5309,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			
 			if (!insBonus) {
 				this.bonus1.visible = true;
-				this.bonus1.text = trans("click for 20 mins bonus time");
+				this.bonus1.text = trans("点击获得 20 分钟奖励时间");
 			}
 			else {
 				this.bonus1.visible = false;
@@ -5343,16 +5343,16 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 				
 				
 				if (language == 0) {
-					this.congWind.concon.text = "Congratulations, you saved the World!";
-					this.congWind.killedIs.text = "and killed some people";
+					this.congWind.concon.text = "恭喜，你拯救了世界！";
+					this.congWind.killedIs.text = "并杀死了一些人";
 					
-					this.congWind.tookDays.text = "It took you " + Math.ceil(daysPassed) + " days (October 22, 2020 - " + showMonth(curDate.month) + " " + Math.round(curDate.day) + ", " + Math.round(curDate.year) + ")";
-					this.congWind.curedAm.text = "You cured people " + format_beauty(sucss, 0) + " times.";
-					this.congWind.immunedAm.text = "You made " + format_beauty(immuned, 0) + " people immuned to the virus.";
-					this.congWind.killedAm.text = "You killed " + format_beauty(deadByU, 0) + " people [Total deaths: " + format_beauty(totalDeaths, 0) + "]";
-					this.congWind.vacAm.text = "You sold " + format_beauty(vacSold, 0) + " cures and made " + format_beauty(totalMMade, 0) + "$";
+					this.congWind.tookDays.text = "它花费了你 " + Math.ceil(daysPassed) + " 天 (October 22, 2020 - " + showMonth(curDate.month) + " " + Math.round(curDate.day) + ", " + Math.round(curDate.year) + ")";
+					this.congWind.curedAm.text = "你治愈了 " + format_beauty(sucss, 0) + " 人.";
+					this.congWind.immunedAm.text = "你让 " + format_beauty(immuned, 0) + " 人对病毒免疫了.";
+					this.congWind.killedAm.text = "你害死了 " + format_beauty(deadByU, 0) + " 人 [总死亡: " + format_beauty(totalDeaths, 0) + "]";
+					this.congWind.vacAm.text = "你出售了 " + format_beauty(vacSold, 0) + " 治愈和赚了 " + format_beauty(totalMMade, 0) + "$";
 					
-					this.congWind.difty.text = "Difficulty: " + dif_prob;
+					this.congWind.difty.text = "难度: " + dif_prob;
 				}
 				else {
 					this.congWind.concon.text = "Поздравляю, вы спасли весь Мир!";
@@ -5378,7 +5378,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 				}
 				
 				if (language == 0) {
-					this.congWind.bonusPts.text = "BONUS POINTS GAIN: " + format_beauty(bonusPGain, 0) + " [TOTAL: " + format_beauty(bonusPts, 0) + "]";
+					this.congWind.bonusPts.text = "奖励点数增益: " + format_beauty(bonusPGain, 0) + " 总计: " + format_beauty(bonusPts, 0) + "]";
 				}
 				else {
 					this.congWind.bonusPts.text = "Бонусов получено: " + format_beauty(bonusPGain, 0) + " [Всего: " + format_beauty(bonusPts, 0) + "]";
@@ -5442,10 +5442,10 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 					this.congWind.minusCon.visible = false;
 				}
 				
-				if (language == 0) this.congWind.hintt.text = "Cure atleast 1% of total cases to lvl up your max difficulty";
+				if (language == 0) this.congWind.hintt.text = "治愈至少 1% 的病例来提升你的最大难度";
 				else this.congWind.hintt.text = "Вылечи хотя-бы 1% от всех заболеваний чтобы продвинуться в сложности";
 				
-				if (language == 0) this.congWind.modeTT.text = "Normal Mode";
+				if (language == 0) this.congWind.modeTT.text = "正常模式";
 				else this.congWind.modeTT.text = "Обычная игра";
 				
 				this.congWind.buyUpg.gotoAndStop(language);
@@ -5592,9 +5592,9 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			}
 			
 				if (language == 0) {
-					this.vcHelp.baseVV.text = "Base C.Cost ~ " + format_beauty((vCostMult**vcPow), 2) + "$";
-					this.vcHelp.maxVV.text = "Max C.C ~ " + format_beauty(((1000*vCostMult)**vcPow), 0) + "$";
-					this.vcHelp.minVV.text = "Min C.C ~ " + format_beauty(((vCostMult**vcPow)/100), 2) + "$";
+					this.vcHelp.baseVV.text = "基础 C.成本 ~ " + format_beauty((vCostMult**vcPow), 2) + "$";
+					this.vcHelp.maxVV.text = "最大 治愈成本 ~ " + format_beauty(((1000*vCostMult)**vcPow), 0) + "$";
+					this.vcHelp.minVV.text = "最小 治愈成本 ~ " + format_beauty(((vCostMult**vcPow)/100), 2) + "$";
 				}
 				else {
 					this.vcHelp.baseVV.text = "Баз. цена ~ " + format_beauty((vCostMult**vcPow), 2) + "$";
@@ -5603,8 +5603,8 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 				}
 				
 				if (language == 0) {
-					this.vcHelp.ccs_b.text = "Cure Cost?";
-					this.vcHelp.ccrr.text = "Every your cure increases C.C by 0.0001$ / immunity by 0.001$. If human dies after your cure, it decreases C.C by 0.005$ and 0.01%";
+					this.vcHelp.ccs_b.text = "治疗成本?";
+					this.vcHelp.ccrr.text = "你每治疗一个人，提高治疗成本 0.0001$ / 免疫力 0.001$. 如果人类在你治疗后死亡, 它减少 治疗成本 0.005$ 和 0.01%";
 				}
 				else {
 					this.vcHelp.ccs_b.text = "Цена?";
@@ -5851,9 +5851,9 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			if (this.vupgade_window.visible) {
 				
 				if (language == 0) {
-					this.vupgade_window.cName.text = "Cure Upgrades";
-					this.vupgade_window.vacLL.text = "Cure Lv: " + format_beauty(vacLvl, 0) + " (Start cures: " + format_beauty(startV, 0) + ")";
-					this.vupgade_window.bpNow.text = "Bonus points: " + format_beauty(bonusPts, 0);
+					this.vupgade_window.cName.text = "治疗升级";
+					this.vupgade_window.vacLL.text = "治疗等级: " + format_beauty(vacLvl, 0) + " (开始治疗: " + format_beauty(startV, 0) + ")";
+					this.vupgade_window.bpNow.text = "奖励点数: " + format_beauty(bonusPts, 0);
 				}
 				else {
 					this.vupgade_window.cName.text = "Улучшения лекарства";
@@ -5904,8 +5904,8 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 				this.giveUPW.yesGUP.gotoAndStop(language);
 				this.giveUPW.noGUP.gotoAndStop(language);
 				if (language == 0) {
-					this.giveUPW.ginfo1.text = "Are you really sure to give up?";
-					this.giveUPW.ginfo2.text = "You will lose your progress and won't get any bonuses but you freely can change your dif-ty/spend est BP";
+					this.giveUPW.ginfo1.text = "你真的确定要放弃吗？";
+					this.giveUPW.ginfo2.text = "您将失去进度并且不会获得任何奖励，但您可以自由更改您的 难度/花费 BP";
 				}
 				else {
 					this.giveUPW.ginfo1.text = "Вы правда хотите сдаться?";
@@ -5922,7 +5922,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 		function curePrestige() {
 			if (!got1T) {
 				this.flushedInfo.visible = true;
-				this.flushedInfo.text = "Get 10B cures to unlock this";
+				this.flushedInfo.text = "获得 10B 治愈来解锁这个";
 				this.flushAllL.visible = false;
 				this.getVcs.visible = false;
 				this.vacBonusc.visible = false;
@@ -5930,7 +5930,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			else {
 				this.flushedInfo.visible = true;
 				if (language == 0) {
-					this.flushedInfo.text = "Flushed Cures: "
+					this.flushedInfo.text = "冲洗治疗: "
 					+ format_short(flushed, 0) + " -> " + format_short(realVacs, 0)
 					+ " Vcs";
 				}
@@ -5959,7 +5959,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 				if (language == 0) {
 					this.getVcs.text = "to get " + format_short(gain, 0) + " Vaccines";
 					
-					this.vacBonusc.text = "Increases your BP and cure gain by x" + format_short(vacBonus, 3);
+					this.vacBonusc.text = "增加你的BP和治愈增益 x" + format_short(vacBonus, 3);
 				}
 				else {
 					this.getVcs.text = "получ. " + format_short(gain, 0) + " вакцин";
@@ -6019,7 +6019,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			if (num == 10) {
 				if (vpgrds[num][0] < vpgrds[num][1]) {
 					if (language == 0) {
-						vup.vup_base.uChange.text = "NO" + " -> YES";
+						vup.vup_base.uChange.text = "否" + " -> 是";
 					}
 					else {
 						vup.vup_base.uChange.text = "НЕТ" + " -> ДА";
@@ -6027,7 +6027,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 				}
 				else {
 					if (language == 0) {
-						vup.vup_base.uChange.text = "Already bought";
+						vup.vup_base.uChange.text = "已购买";
 					}
 					else {
 						vup.vup_base.uChange.text = "Уже куплено";
@@ -6057,7 +6057,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			}
 			else {
 				if (language == 0) {
-					vup.vup_base.uCost.text = "Max Level!";
+					vup.vup_base.uCost.text = "最高级!";
 				}
 				else {
 					vup.vup_base.uCost.text = "Максимально!";
@@ -6297,11 +6297,11 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			}
 			if (hasAuto[0] == 1) {
 				this.autoBuy_t.visible = true;
-				if (language == 0) this.autoBuy_t.text = "Autobuy!";
+				if (language == 0) this.autoBuy_t.text = "自动购买!";
 				if (language == 1) this.autoBuy_t.text = "Автопокуп!";
 				this.autobIs.visible = true;
 				this.autobDesc.visible = true;
-				if (language == 0) this.autobDesc.text = "Autobuys the cheapest building every tick";
+				if (language == 0) this.autobDesc.text = "每一刻自动购买最便宜的建筑";
 				if (language == 1) this.autobDesc.text = "Каждый тик покупает самое дешевое";
 				this.tickSpeedt.visible = true;
 				this.autoBBar.visible = true;
@@ -6316,10 +6316,10 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 				
 				if (language == 0) {
 					if (autoInter > 1) {
-						this.tickSpeedt.text = "Tick Speed: " + Math.round(autoInter*100)/100 + "s";
+						this.tickSpeedt.text = "Tick 速度: " + Math.round(autoInter*100)/100 + "s";
 					}
 					else {
-						this.tickSpeedt.text = "Tick Speed: " + Math.round(autoInter*1000) + "ms";
+						this.tickSpeedt.text = "Tick 速度: " + Math.round(autoInter*1000) + "ms";
 					}
 				}
 				else {
@@ -6826,7 +6826,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			}
 			
 			
-			this.sell5.name_u.text = trans("Leaders") + ": " + format_short(buildsSell[4][1], 0) + " [" + format_beauty(buildsSell[4][0], 0) + "]";
+			this.sell5.name_u.text = trans("领导") + ": " + format_short(buildsSell[4][1], 0) + " [" + format_beauty(buildsSell[4][0], 0) + "]";
 			this.sell5.lv_u.text = Math.round(buildsSell[4][2]) + "";
 			
 			if (buildsSell[4][4] / buildsSell[3][10] < 1) {
@@ -7095,7 +7095,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 			
 			this.totalmmade_txt.text = trans("总计赚的钱 $") + ": " + format_beauty(totalMMade, 0) + "$";
 			
-			this.timePas_txt.text = trans("过去时间") + ": " + (timeDays>0 ? format_beauty(timeDays, 0) + " "+trans("days") + " " : "") + (timeHours>0 ? format_beauty(timeHours, 0) + " " + trans("hours") + " " : "") + format_beauty(timeMinutes, 2) + " " + trans("mins") + " ";
+			this.timePas_txt.text = trans("过去时间") + ": " + (timeDays>0 ? format_beauty(timeDays, 0) + " "+trans("天") + " " : "") + (timeHours>0 ? format_beauty(timeHours, 0) + " " + trans("小时") + " " : "") + format_beauty(timeMinutes, 2) + " " + trans("分钟") + " ";
 			
 			this.difty_txt.text = trans("难度") + ": " + format_beauty(difficulty, 0);
 			
@@ -7537,28 +7537,28 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 		this.addEventListener("tick", translateconst.bind(this));
 		function translateconst() {
 			if (language == 0) {
-				this.gameInfo_.text = "You can cure only sick. Game ends when the pandemic is over.";
-				this.wpop_static.text = "World Population";
-				this.selling_st.text = "SELLING";
-				this.ycu.text = "Your cure";
-				this.csta.text = "Cure stats";
+				this.gameInfo_.text = "你只能治病。 大流行结束后，游戏结束。";
+				this.wpop_static.text = "世界人口";
+				this.selling_st.text = "出售";
+				this.ycu.text = "你的治数";
+				this.csta.text = "治愈统计";
 				
 				this.gmade_stat.text = "Game by Denisolenison";
-				this.madeInstat.text = "made in Fall 2020";
-				this.versionStat.text = "Version: 1.0.6";
-				this.stath2.text = "subscribe for extra karma";
-				this.stath3.text = "like game post for extra karma too:)";
+				this.madeInstat.text = "制作于 2020 秋季";
+				this.versionStat.text = "版本: 1.0.6";
+				this.stath2.text = "订阅获得额外的业力";
+				this.stath3.text = "喜欢游戏帖子也可以获得额外的业力:)";
 				
 				vNames = ["Inflation", "B.Cure Ch.", "B.Imm. Ch.", "B.Death Ch.", "B.Cure Time", "Time Spread", "B.Sell Time", "Sell Once", "Make Once", "All Gains", "Autobuy", "Autobuy T."];
 				vDescs = ["Your base/max/min v.cost is multiplied by", "Base Cure Chance is", "Base Immunity Chance is (mult. to cure ch.)", "Base Death Chance is (mult. to not cure ch.)", "Base time to make cures", "Days and months go slower", "Base time to sell cures", "Sell more cures once", "Make more cures once", "Multiplies all buildings speed", "Automatically buys building", "Autobuy more often"];
 				
-				this.optWindow.opNa.text = "Options";
+				this.optWindow.opNa.text = "选项";
 				
 				if (notation == 0) {
-					this.optWindow.opt1.text = "Notation: Common";
+					this.optWindow.opt1.text = "符号: 常见";
 				}
 				else {
-					this.optWindow.opt1.text = "Notation: Exponential";
+					this.optWindow.opt1.text = "符号: 指数";
 				}
 				this.optWindow.importSF.gotoAndStop(language);
 				this.optWindow.man_save.gotoAndStop(language);
@@ -7910,7 +7910,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 		  if ('FileReader' in window) {
 		    document.getElementById('exampleInputFile').click();
 		  } else {
-		    alert('Your browser does not support the HTML5 FileReader.');
+		    alert('您的浏览器不支持 HTML5 FileReader。');
 		  }
 		}
 		
@@ -7931,7 +7931,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 		
 		function saveFile() {
 		  if ('Blob' in window) {
-		    var fileName = prompt('Please enter file name to save', 'Vac_Save.txt');
+		    var fileName = prompt('请输入要保存的文件名', 'Vac_Save.txt');
 		    if (fileName) {
 			  makeSaveFile();
 		      var textToWrite = sFileText + "";  //че сохраняем (в виде текста уже)
@@ -7942,7 +7942,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 		      } else {
 		        var downloadLink = document.createElement('a');
 		        downloadLink.download = fileName;
-		        downloadLink.innerHTML = 'Download File';
+		        downloadLink.innerHTML = '下载文件';
 		        if ('webkitURL' in window) {
 		          // Chrome allows the link to be clicked without actually adding it to the DOM.
 		          downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
@@ -7958,7 +7958,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-2,166.5,48.5);
 		      }
 		    }
 		  } else {
-		    alert('Your browser does not support the HTML5 Blob.');
+		    alert('您的浏览器不支持 HTML5 Blob。');
 		  }
 		}
 		
